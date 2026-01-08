@@ -9,7 +9,7 @@ metadata:
       - name: StorageType
         value: hostpath
       - name: BasePath
-        value: /raid/enc
+        value: /kube/hostpath
 provisioner: openebs.io/local
 reclaimPolicy: Delete
 volumeBindingMode: WaitForFirstConsumer
